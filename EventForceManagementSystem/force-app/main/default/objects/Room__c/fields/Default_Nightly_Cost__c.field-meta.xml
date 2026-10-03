@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Nightly_Cost__c</fullName>
+    <description>This is the default per night cost of the room.</description>
+    <label>Default Nightly Cost</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

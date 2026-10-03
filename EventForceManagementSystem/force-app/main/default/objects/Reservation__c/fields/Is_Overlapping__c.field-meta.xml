@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Overlapping__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to check if the reservation being created is double booking the same room.</description>
+    <label>Is Overlapping</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

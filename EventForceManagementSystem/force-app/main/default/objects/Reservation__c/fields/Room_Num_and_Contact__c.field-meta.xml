@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Num_and_Contact__c</fullName>
+    <externalId>false</externalId>
+    <formula>Room__r.Name + &quot; - &quot; + Contact__r.FirstName + &quot; &quot; + Contact__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Room Num and Contact</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

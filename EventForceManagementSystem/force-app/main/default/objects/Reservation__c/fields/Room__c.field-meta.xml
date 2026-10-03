@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room__c</fullName>
+    <description>This is the room that is selected based off of availability.</description>
+    <label>Room</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Room_Type__c</field>
+            <operation>equals</operation>
+            <valueField>Room__c.Type__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Room__c</referenceTo>
+    <relationshipLabel>Reservations</relationshipLabel>
+    <relationshipName>Reservations</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

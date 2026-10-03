@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Double_Booking</fullName>
+    <active>true</active>
+    <description>Checks if a booking overlaps with an existing booking for the same room.</description>
+    <errorConditionFormula>Is_Overlapping__c = TRUE</errorConditionFormula>
+    <errorMessage>This room is already booked for the specified dates. Please select different dates or a different room.</errorMessage>
+</ValidationRule>

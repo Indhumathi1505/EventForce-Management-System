@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_In_Date_Prior_to_Check_Out_Date</fullName>
+    <active>true</active>
+    <description>This checks to insure the Check-in Date is at least 1 day prior to Check-out Date.</description>
+    <errorConditionFormula>Check_in_Date__c &gt;= Check_out_Date__c</errorConditionFormula>
+    <errorMessage>The Check-In Date must be at least 1 day prior to the Check-Out Date.</errorMessage>
+</ValidationRule>
